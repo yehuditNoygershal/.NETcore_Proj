@@ -11,9 +11,9 @@ namespace DAL.Interface
     public interface IBooklet
     {
        public Task<bool> CreateBooklet(BookletDto booklet);
-       public List<Booklet> GetAllBooklets();
-       public Booklet GetBookletByName(string name);
-       public Task<bool> UpdatePrice(double price,int id);
-       //public void DeleteBooklet(BookletDto booklet);
+       public List<BookletDto> GetAllBooklets();
+       //public Booklet GetBookletByName(string name);
+       public void UpdatePrice(double price,int id);
+        public void DeleteBooklet(int id);
     }
 }

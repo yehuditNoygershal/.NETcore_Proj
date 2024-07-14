@@ -27,20 +27,28 @@ namespace FinalProject.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get()
+        public List<BookletDto> Get()
         {
-            _bookletStore.GetAllBooklets();
-            return Ok();
+            List<BookletDto> result=_bookletStore.GetAllBooklets();
+            return result;
+            
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put([FromBody] double price,  int id)
+        public ActionResult Put(int id, [FromBody] double price)
         {
             _bookletStore.UpdatePrice(price, id);
             return Ok();
 
         }
 
+        [HttpDelete("{id}")]
+        public  ActionResult Delete(int id)
+        {
+            _bookletStore.DeleteBooklet(id);
+            return Ok();
+
+        }
         //[HttpPut("{id:int}")]
         //public async Task<IActionResult> UpdatePrice([FromBody] BookletDto bookletDto)
         //{

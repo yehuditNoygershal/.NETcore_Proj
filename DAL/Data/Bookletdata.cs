@@ -28,37 +28,41 @@ namespace DAL.Data
             return isOk;
         }
 
-        public List<Booklet> GetAllBooklets()
+        public List<BookletDto> GetAllBooklets()
         {
-            return _context.Booklets.ToList();
+           var mybooklets= _context.Booklets.ToList();
+            var mybookletsDto =_mapper.Map <List<BookletDto>>(mybooklets);
+            return mybookletsDto;
         }
 
-        public Booklet GetBookletByName(string name)
-        {
-            var mybooklet = _context.Booklets.FirstOrDefault(x => x.name == name);
-            return mybooklet;
-        }
 
-        public async Task<bool> UpdatePrice(double price, int id)
+        public  void UpdatePrice(double price, int id)
         {
-            var Booklet = await _context.Booklets
-                                 .Where(x => x.Id ==id).FirstOrDefaultAsync();
+            var Booklet = _context.Booklets.Find(id);
+
             if (Booklet == null)
-                return false;
+            {
+                throw new NotImplementedException();
+            }
+               
             Booklet.price = price;
-            await _context.SaveChangesAsync();
-            return true;
+
+            _context.Update(Booklet);
+             _context.SaveChangesAsync();   
         }
 
-        //public void DeleteBooklet(BookletDto booklet)
-        //{
-        //    var myBooklet = _context.Booklets.Where(b => b.Id == booklet.Id);
-        //    if (myBooklet != null)
-        //    {
-        //        _context.Booklets.Remove((Booklet)myBooklet);
-        //        _context.SaveChanges();
-        //    }
-        //}
+
+        public void DeleteBooklet(int id)
+        {
+            var booklet = _context.Booklets.Where(b => b.Id == id).FirstOrDefault();
+
+            if (booklet != null)
+            {
+                _context.Booklets.Remove(booklet);
+                _context.SaveChanges();
+            }
+        }
+
 
 
 
