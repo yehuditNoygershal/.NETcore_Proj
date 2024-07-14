@@ -1,0 +1,31 @@
+C:\Users\The user\Documents\.NET\DAL\bin\Debug\net6.0\DAL.deps.json
+C:\Users\The user\Documents\.NET\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+C:\Users\The user\Documents\.NET\DAL\bin\Debug\net6.0\DAL.dll
+C:\Users\The user\Documents\.NET\DAL\bin\Debug\net6.0\DAL.pdb
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.dll
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\refint\DAL.dll
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.pdb
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\The user\Documents\.NET\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\DAL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\DAL.pdb
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.pdb
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\ref\DAL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\MODELS.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\bin\Debug\net6.0\MODELS.pdb
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\DAL\obj\Debug\net6.0\DAL.csproj.CopyComplete

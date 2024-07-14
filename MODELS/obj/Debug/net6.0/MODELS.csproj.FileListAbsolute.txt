@@ -1,0 +1,28 @@
+C:\Users\The user\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.deps.json
+C:\Users\The user\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.runtimeconfig.json
+C:\Users\The user\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.dll
+C:\Users\The user\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.pdb
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.csproj.AssemblyReference.cache
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.AssemblyInfoInputs.cache
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.AssemblyInfo.cs
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.csproj.CoreCompileInputs.cache
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.dll
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\refint\MODELS.dll
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.pdb
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.genruntimeconfig.cache
+C:\Users\The user\Documents\.NET\MODELS\obj\Debug\net6.0\ref\MODELS.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.deps.json
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.runtimeconfig.json
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\bin\Debug\net6.0\MODELS.pdb
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.csproj.AssemblyReference.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.AssemblyInfoInputs.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.AssemblyInfo.cs
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.csproj.CoreCompileInputs.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\refint\MODELS.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.pdb
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\MODELS.genruntimeconfig.cache
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\MODELS\obj\Debug\net6.0\ref\MODELS.dll
