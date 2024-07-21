@@ -34,6 +34,13 @@ namespace FinalProject.Controllers
             
         }
 
+        //[HttpGet("{name}")]
+
+        //public BookletDto Get(string name)
+        //{
+        //    return _bookletStore.GetBookletByName(name);
+        //}
+
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] double price)
         {
@@ -49,26 +56,8 @@ namespace FinalProject.Controllers
             return Ok();
 
         }
-        //[HttpPut("{id:int}")]
-        //public async Task<IActionResult> UpdatePrice([FromBody] BookletDto bookletDto)
-        //{
-        //    var booklet = await _context.Booklets.FindAsync(bookletDto.Id);
-        //    if (booklet == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    booklet.Price = bookletDto.Price;
-        //    await _context.SaveChangesAsync();
-
-        //    return Ok(); // Or CreatedAtAction("GetBooklet", new { id = bookletDto.Id }) if creating a new booklet
-        //}
-
-        //[HttpGet("{name}")]
-        //public Booklet ActionResult Get(string name)
-        //{
-        //    return _bookletStore.GetBookletByName(name);
-        //}
+       
+        
 
 
     }

@@ -9,9 +9,9 @@ namespace MODELS.Models
     public class Orders
     {
         public int Id { get; set; }
-        public string OrderingName { get; set; }
-        //public Dictionary<string, int> myAllBooklet { get; set; }
-        public DateTime dateOrder { get; set; }
+        public string OrderName { get; set; }
+        public DateTime dateOrder { get; set; } 
+        
     }
 
 }

@@ -35,6 +35,13 @@ namespace DAL.Data
             return mybookletsDto;
         }
 
+        //public BookletDto GetBookletByName(string name)
+        //{
+        //    var booklet = _context.Booklets.Find(name);
+        //    var bookletDto = _mapper.Map<BookletDto>(booklet);
+        //    return bookletDto;
+        //}
+
 
         public  void UpdatePrice(double price, int id)
         {

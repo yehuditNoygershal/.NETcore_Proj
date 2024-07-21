@@ -130,3 +130,6 @@ D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\ne
 D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\DAL.dll
 D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\DAL.pdb
 D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\BL.dll
+D:\קבצי משתמש לא לגעת !!\Documents\.NET\FinalProject\bin\Debug\net6.0\BL.pdb

@@ -1,8 +1,12 @@
-using AutoMapper;
-using DAL.Data;
-using DAL.Interface;
 using Microsoft.EntityFrameworkCore;
+using DAL.Interface;
+using DAL.Data;
 using MODELS.Models;
+using BL;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using AutoMapper;
 
 namespace FinalProject
 {
@@ -15,16 +19,35 @@ namespace FinalProject
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            builder.Services.AddControllersWithViews();
-            builder.Services.AddDbContext<BookletContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultDataBase")));
+            builder.Services.AddDbContext<BookletContext>(op => op.UseSqlServer("DefaultDatabase"));
             builder.Services.AddScoped<IBooklet, BookletData>();
-            var app = builder.Build();
+            builder.Services.AddScoped<IOrder, Orderdata>();
 
+            var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
+
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -35,8 +58,10 @@ namespace FinalProject
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseMiddleware<MiddlewareJWT>();
 
             app.MapControllers();
 
